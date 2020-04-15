@@ -1,0 +1,8 @@
+package com.firstApp.mavenApp.repositories;
+
+import com.firstApp.mavenApp.models.Session;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface SessionRepository extends JpaRepository<Session,Long>{
+
+}
